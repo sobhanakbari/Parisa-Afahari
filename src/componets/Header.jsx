@@ -83,7 +83,7 @@ export default function Header() {
       </nav>
       <div className="row bg-white py-2 phone-show">
         <div className="col-md-12 d-flex align-items-center justify-content-between gap-2">
-          <label for="menu-toggle" className="menu-icon user-select-none">
+          <label htmlFor="menu-toggle" className="menu-icon user-select-none">
             &#9776;
           </label>
           <input type="checkbox" id="menu-toggle" />
