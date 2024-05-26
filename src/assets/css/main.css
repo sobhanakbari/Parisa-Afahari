@@ -9,7 +9,7 @@
 }
 
 /******** Firefox ********/
-input[type="range"]::-moz-range-track {
+input[type=range]::-moz-range-track {
   -webkit-appearance: none;
   appearance: none;
   background: transparent;
@@ -213,7 +213,7 @@ input[type="range"]::-moz-range-track {
 
 @font-face {
   font-family: tanha;
-  src: url(./assets/fonts/tanha-font-v0.9/Tanha.woff) format("woff");
+  src: url(../fonts/tanha-font-v0.9/Tanha.woff) format("woff");
 }
 body {
   font-family: tanha;
@@ -324,8 +324,7 @@ body {
 
 .parallax {
   /* The image used */
-  background-image: url("../img/IMG_4926.png"),
-    linear-gradient(270deg, #7b16c6 0%, #c82090 61%);
+  background-image: url("../img/IMG_4926.png"), linear-gradient(270deg, #7b16c6 0%, #c82090 61%);
   /* Set a specific height */
   min-height: auto;
   /* Create the parallax scrolling effect */
@@ -553,18 +552,8 @@ body {
     position: static;
   }
   .bg-img-top-box1 {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.749),
-        rgba(255, 255, 255, 0.655)
-      ),
-      url("../img/slide-min.png");
-    background-image: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.749),
-        rgba(255, 255, 255, 0.655)
-      ),
-      url("../img/slide-min.png");
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.749), rgba(255, 255, 255, 0.655)), url("../img/slide-min.png");
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.749), rgba(255, 255, 255, 0.655)), url("../img/slide-min.png");
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
